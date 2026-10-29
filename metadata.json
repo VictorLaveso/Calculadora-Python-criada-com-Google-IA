@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Python - 4 Operações Básicas",
+  "description": "Gerador de código Python para calculadora com as quatro operações básicas (adição, subtração, multiplicação e divisão), simulador interativo e terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
