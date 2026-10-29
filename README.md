@@ -49,8 +49,6 @@ A leitura dos dados e a identificação do cálculo ocorrem em três etapas lóg
   Utilizei uma estrutura de decisão simples e eficiente que direciona os números digitados para a função matemática exata correspondente à opção escolhida.
   Prevenção da Divisão por Zero:
   Antes de realizar a divisão (a / b), o código avalia:
-  code
-  Python
   if b == 0:
       return "Erro: Divisão por zero não é permitida!"
   return a / b
@@ -59,21 +57,21 @@ A leitura dos dados e a identificação do cálculo ocorrem em três etapas lóg
   Utilizei f-strings do Python para interpolar os dados de entrada, o operador matemático e o resultado final em uma única linha legível (exemplo: 15.0 + 27.0 = 42.0), imprimindo o resultado com destaque no terminal e salvando essa string na lista de histórico.
 
 🚀 Como Executar o Projeto Localmente
-  Pré-requisitos
-  Python 3.8 ou superior instalado.
-  Passo a Passo
-  Clone o repositório ou baixe o arquivo calculadora.py:
-  code
-  Bash
-  git clone https://github.com/seu-usuario/calculadora-python.git
-  cd calculadora-python
-  Execute o arquivo no terminal:
-  No Windows:
-  code
-  Bash
-  python calculadora.py
-  No macOS / Linux:
-  code
-  Bash
-  python3 calculadora.py
-  Escolha a operação desejada no menu interativo e digite os números!
+    Pré-requisitos
+    Python 3.8 ou superior instalado.
+    Passo a Passo
+    Clone o repositório ou baixe o arquivo calculadora.py:
+    code
+    Bash
+    git clone https://github.com/seu-usuario/calculadora-python.git
+    cd calculadora-python
+    Execute o arquivo no terminal:
+    No Windows:
+    code
+    Bash
+    python calculadora.py
+    No macOS / Linux:
+    code
+    Bash
+    python3 calculadora.py
+    Escolha a operação desejada no menu interativo e digite os números!
